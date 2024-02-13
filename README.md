@@ -1,3 +1,3 @@
-# Desenvolvendo um site e Aplicando alguns conceitos.
+# Desenvolvendo um site e aplicando alguns conceitos.
 HTML/CSS.
  
