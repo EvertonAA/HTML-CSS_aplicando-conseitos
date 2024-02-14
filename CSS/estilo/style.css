@@ -1,0 +1,119 @@
+/*
+#0700d0
+#f0e2d3
+#ffe4e4
+#ffffff */
+
+/* deixando uma pleta de cores para organizar e padronizar o site */
+
+
+
+/* reseyando as configurações do navegador  */
+body{
+    background-color: #000000;
+    color: #ffffff;
+
+}
+/*  iniciando a configuração do nav-bar */
+.nav-bar ul{
+    margin:10px;
+    text-align: center; 
+    font-size: 18px;
+}
+/*  após editar o elemento pai ul
+abaixo vou editar o elemento filho li */
+.nav-bar ul li{
+    display: inline-block;
+    justify-content: space-around;
+    /* alinhou os items nos espaço da tela  */
+    padding:8px;
+    margin: 10px;
+    background-color: #f0e2d3 ;
+    color: #0700d0;
+    border-radius: 15px; 
+    /* arredndou a borda do elemento */
+    box-shadow: -1px 3px #f23434a3;
+    /*  adicionou sombra aos elementos  */
+}
+.nav-bar ul li a{
+    text-transform: uppercase;
+    /* editou a font, deixando-a maiuscula */
+    text-decoration: none;
+    /* eliminou o aspecto de link do texto */
+}
+/*  vamos editar o titulo */
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fef4e4;
+    box-shadow: 1px 3px #f23434a3;
+}
+.div-img{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #fef4e4;
+}
+ .titulo, h3{
+    font-size: 14px;
+ }
+
+.corpo-site{
+    margin: 10px;
+    padding: 15px;
+}
+
+.corpo-site, .sub-titulo {
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.corpo-site p {
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.referencia a{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.corpo-site{
+    border-bottom: 1px solid  #fef4e4;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+.rodape img{
+    background-color: #f0e2d3;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.rodape a {
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.rodape a p{
+    margin:5px;
+    color: #fef4e4;
+}
+.rodape a .insta{
+    border-radius: 6%;
+}
+
+.corpo{
+    border-bottom: 2px solid #f0e2d3;
+}
